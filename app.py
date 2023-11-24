@@ -20,7 +20,7 @@ if fl is not None:
     df = pd.read_excel(filename)
 
 else:
-    os.chdir(r"/Users/leelajosnakona/Leela/GitHub/superstore/")
+    # os.chdir(r"/Users/leelajosnakona/Leela/GitHub/superstore/")
     # df = pd.read_csv(r"Global_Superstore(CSV).csv", encoding = "ISO-8859-1")
     df = pd.read_excel(r"Sample - Superstore.xls")
 
